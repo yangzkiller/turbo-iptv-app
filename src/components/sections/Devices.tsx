@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollReveal } from '../ui/ScrollReveal';
+import { ScrollReveal } from '@/components/ui/ScrollReveal';
 
 export const Devices: React.FC = () => {
     const devices = [

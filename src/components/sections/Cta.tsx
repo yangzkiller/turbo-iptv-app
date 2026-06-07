@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from '../ui/Button';
-import { ScrollReveal } from '../ui/ScrollReveal';
-import { LANDING_CONFIG } from '../../config/landing';
+import { Button } from '@/components/ui/Button';
+import { ScrollReveal } from '@/components/ui/ScrollReveal';
+import { LANDING_CONFIG } from '@/config/landing';
 
 export const Cta: React.FC = () => {
     return (

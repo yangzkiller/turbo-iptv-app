@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '../ui/Button';
-import { LANDING_CONFIG } from '../../config/landing';
+import { Button } from '@/components/ui/Button';
+import { LANDING_CONFIG } from '@/config/landing';
 
 export const Navbar: React.FC = () => {
     return (
