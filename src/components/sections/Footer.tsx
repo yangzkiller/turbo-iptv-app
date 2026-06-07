@@ -1,5 +1,4 @@
 import React from 'react';
-import { LANDING_CONFIG } from '@/config/landing';
 
 export const Footer: React.FC = () => {
     return (
