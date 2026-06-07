@@ -9,7 +9,6 @@ export const Footer: React.FC = () => {
             </div>
             <p className="text-[0.8rem] text-[#7a9a7a] leading-relaxed">
                 © 2026 Turbo IPTV — Todos os direitos reservados<br />
-                <span className="text-[0.75rem]">Atendimento via WhatsApp: {LANDING_CONFIG.supportNumber}</span>
             </p>
         </footer>
     );
