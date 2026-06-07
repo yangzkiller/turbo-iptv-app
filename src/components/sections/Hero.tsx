@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
             <div className="relative z-10 flex-1 flex flex-col items-center justify-center text-center">
                 <div className="inline-flex items-center gap-2 bg-[rgba(0,255,153,0.08)] border border-[rgba(0,255,153,0.15)] rounded-full px-[18px] py-2 text-[0.75rem] font-medium text-[#00ff99] tracking-[1.5px] uppercase mb-7 animate-[fadeUp_0.6s_ease_both]">
                     <span className="w-[7px] h-[7px] bg-[#00ff99] rounded-full animate-[pulse_2s_infinite]" />
-                    Serviço Online Agora testeee
+                    Serviço Online Agora fggg
                 </div>
 
                 <h1 className="font-['Bebas_Neue'] text-[clamp(3.5rem,10vw,7.5rem)] leading-[0.9] tracking-[2px] text-white animate-[fadeUp_0.6s_0.1s_ease_both]">
