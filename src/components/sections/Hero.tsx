@@ -23,19 +23,18 @@ export const Hero: React.FC = () => {
 
             <div className="relative z-10 flex flex-wrap gap-4 justify-center animate-[fadeUp_0.6s_0.3s_ease_both]">
                 <Button href={LANDING_CONFIG.links.freeTrial}>
-                    🎁 Teste Grátis — 6 Horas
+                    Teste Grátis — 6 Horas
                 </Button>
                 <Button href={LANDING_CONFIG.links.subscribe} variant="secondary">
-                    💬 Falar no WhatsApp
+                    Falar no WhatsApp
                 </Button>
             </div>
 
             <div className="relative z-10 flex flex-wrap md:flex-nowrap gap-6 md:gap-[48px] justify-center mt-[60px] animate-[fadeUp_0.6s_0.4s_ease_both]">
                 {[
                     { v: 'HD', l: 'Qualidade' },
-                    { v: '24/7', l: 'Suporte' },
+                    { v: '24/7', l: 'Suporte ' },
                     { v: 'R$25', l: 'Por mês' },
-                    { v: '4K', l: 'Disponível' }
                 ].map((stat, i, arr) => (
                     <React.Fragment key={stat.l}>
                         <div className="text-center min-w-[70px]">

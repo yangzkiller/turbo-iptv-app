@@ -1,16 +1,22 @@
-@import "tailwindcss";
-
-/* Importação das fontes que a tua landing page usa */
+/* 1. Imports das fontes primeiro */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap');
 
+/* 2. Inicialização do Tailwind v4 */
+@import "tailwindcss";
+
 @theme {
-  /* Configuração das animações customizadas para a v4 */
+  /* Altera a fonte sans padrão do site inteiro para 'Outfit' */
+  --font-sans: 'Outfit', sans-serif;
+
+  /* Cria o utilitário font-bebas para títulos */
+  --font-bebas: 'Bebas Neue', sans-serif;
+
+  /* Mantém as tuas animações configuradas */
   --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   --animate-fadeUp: fadeUp 0.6s ease both;
   --animate-fadeIn: fadeIn 1s 1s both;
   --animate-scrollAnim: scrollAnim 1.5s infinite;
 
-  /* Definição dos Keyframes nativos dentro do tema */
   @keyframes fadeUp {
     0% {
       opacity: 0;
